@@ -1,0 +1,18 @@
+# Referencia munka - 3D modellező 
+
+Ez a projekt egy Blenderben készült referencia animáció.
+
+A renderelt animáció megtekinthető [YouTube](https://youtu.be/RX8xVasX1vU)-on.
+
+Igyekeztem alkalmazni a kért feltételeket, amennyire tudtam egy ilyen kisebb referencia munkához viszonyítva.
+
+Alapvetően egy low-poly asztali makettet akartam ábrázolni, ahol a maketten kívűli részeket szándékosan átalakítottam high-poly-ra hogy jobban elüssön. A nagy fának a lombkoronáját sculptinggal igazítottam meg, illetve a fába véstem egy odút. Mivel ez jelentősen megnövelte a polygon számát, ezért ehhez a nagy fához készítettem alacsonyabb LOD-szinteket.
+A modellekkel van a legnagyobb tapasztalatom korábbról, ezért azokra igyekeztem nagyobb hangsúlyt fektetni, hogy az épületek és a repülő, egy részletesebb makett hatást keltsen. Mivel a repülő a lényeg az animációban (illetve talán azt a legizgalmasabb Unitybe áthelyeznni), ezért készítettem hozzá is 3 LOD-szintet. A LOD_1 mindkét modellnél, az alap, általam megformázott modell, míg a LOD_0 a magas polygon számú és a LOD_2 az alacsony polygon számú modellt fedi. Ezeket modifier-ek segítségével hoztam létre, szükség esetén javítva. Több modellnél nem hoztam létre LOD szinteket, mivel ez csak egy bemutató animációhoz készült, egy Vr/Ar projekthez még sokat lehetne rajta optimalizálni.
+Mivel a repülő animációja alatt nem használtam normális riggelést, ezért csináltam egy integető fát is, amihez riggelést használtam.
+
+A hangokat a [Pixabay „freesound community”](https://pixabay.com/sound-effects)-ből töltöttem le, minden más saját munka.
+
+A projekt Blender fájlja, a renderelt animáció, valamint a Unity-kompatibilis FBX export is elérhető (Unity 3.12-ben tesztelve).
+
+
+Bár a Substance Painter-t még nem volt alkalmam használni projektben, tisztában vagyok a PBR workflow alapjaival, és kifejezetten motivált vagyok, hogy a gyakorlatban is elmélyítsem a tudásom.
