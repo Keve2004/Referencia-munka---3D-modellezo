@@ -2,7 +2,7 @@
 
 Ez a projekt egy Blenderben készült referencia animáció.
 
-A renderelt animáció megtekinthető [YouTube](https://youtu.be/RX8xVasX1vU)-on.
+A renderelt animáció megtekinthető [YouTube](https://youtu.be/RX8xVasX1vU)-on, a blender fájl eredeti minőségben pedig letölthető [innen](https://drive.google.com/file/d/18CA0SIu2eKPqaAzePLigVs82Ti2ckuY_/view?usp=sharing).
 
 Igyekeztem alkalmazni a kért feltételeket, amennyire tudtam egy ilyen kisebb referencia munkához viszonyítva.
 
@@ -12,7 +12,6 @@ Mivel a repülő animációja alatt nem használtam normális riggelést, ezért
 
 A hangokat a [Pixabay „freesound community”](https://pixabay.com/sound-effects)-ből töltöttem le, minden más saját munka.
 
-A projekt Blender fájlja, a renderelt animáció, valamint a Unity-kompatibilis FBX export is elérhető (Unity 3.12-ben tesztelve).
-
+A projekt Blender fájlja, a renderelt animáció, valamint az integető fáról egy Unity-kompatibilis FBX export is elérhető (Unity 3.12-ben tesztelve).
 
 Bár a Substance Painter-t még nem volt alkalmam használni projektben, tisztában vagyok a PBR workflow alapjaival, és kifejezetten motivált vagyok, hogy a gyakorlatban is elmélyítsem a tudásom.
